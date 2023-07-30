@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    padding: 8px 12px;
+    background-color: #ff0101;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ff0101;
+  }
+
+  .wantblood{
+    text-align: center;margin-top: 10px;
+  }
+
+/* Style the dropdown menu */
+select {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the dropdown options */
+option {
+  padding: 5px;
+}
+
+/* Style the placeholder option */
+option[value=""][disabled] {
+  display: none;
+}
+
+/* Style the selected option */
+option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+/* Style the footer element */
+/*footer {
+  background-color: #262424;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}*/
+#wantBloodButton a{
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  display: table;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-weight:bold;
+
+}
+li > * {
+  display: table-cell;
+  padding: 8px;
+}
+li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}

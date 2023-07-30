@@ -1,0 +1,24 @@
+<!-- donors.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  
+  <title>Donors</title>
+</head>
+<body>
+  <h1>Donors List</h1> 
+
+  <% for(var i=0;i<found.length;i++){ %> 
+    <% if(blood===found[i].Donorblood){ %>
+      <li>
+        Name: <%= found[i].Donorname %><br>
+        Blood Type: <%= found[i].Donorblood %><br>
+        Contact: <%= found[i].Donorcontact %><br>
+      </li>
+    <% } %>
+  <% } %>
+  <button><a href="search">Go Back ❤️</a></button>
+</body>
+</html>
