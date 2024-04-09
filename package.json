@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "eslint": "eslint ./",
+    "eslint-fix": "eslint ./ --fix",
+    "build": "webpack",
+    "prod": "node dist/final.js"
   },
   "author": "YuvrajSingh",
   "license": "ISC",
@@ -16,5 +20,10 @@
     "express": "^4.18.2",
     "mongoose": "^7.4.1",
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
